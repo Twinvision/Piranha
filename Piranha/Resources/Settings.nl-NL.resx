@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDescription" xml:space="preserve">
+    <value>Omschrijving</value>
+  </data>
+  <data name="AccessDescriptionLength" xml:space="preserve">
+    <value>Omschrijving heeft een maximale lengte van 255 karakters.</value>
+  </data>
+  <data name="AccessGroup" xml:space="preserve">
+    <value>Groep</value>
+  </data>
+  <data name="AccessGroupRequired" xml:space="preserve">
+    <value>Groep is een verplicht veld.</value>
+  </data>
+  <data name="AccessMembers" xml:space="preserve">
+    <value>Leden</value>
+  </data>
+  <data name="AccessMembersNew" xml:space="preserve">
+    <value>Wanneer de rechten zijn aangemaakt kunt u zien wie er toegang toe heeft.</value>
+  </data>
+  <data name="AccessName" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="AccessNameLength" xml:space="preserve">
+    <value>Naam heeft een maximale lengte van 64 karakters.</value>
+  </data>
+  <data name="AccessNameRequired" xml:space="preserve">
+    <value>Naam is een verplicht veld.</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Gebruikersaccount</value>
+  </data>
+  <data name="APIKey" xml:space="preserve">
+    <value>API sleutel</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Verander wachtwoord</value>
+  </data>
+  <data name="CreatePassword" xml:space="preserve">
+    <value>Zet wachtwoord</value>
+  </data>
+  <data name="EditTitleExistingAccess" xml:space="preserve">
+    <value>Bewerk rechten</value>
+  </data>
+  <data name="EditTitleExistingGroup" xml:space="preserve">
+    <value>Bewerk groep</value>
+  </data>
+  <data name="EditTitleExistingParam" xml:space="preserve">
+    <value>Bewerk parameter</value>
+  </data>
+  <data name="EditTitleExistingUser" xml:space="preserve">
+    <value>Bewerk gebruiker</value>
+  </data>
+  <data name="EditTitleNewAccess" xml:space="preserve">
+    <value>Voeg rechten toe</value>
+  </data>
+  <data name="EditTitleNewGroup" xml:space="preserve">
+    <value>Voeg nieuwe groep toe</value>
+  </data>
+  <data name="EditTitleNewParam" xml:space="preserve">
+    <value>Voeg nieuwe parameter toe</value>
+  </data>
+  <data name="EditTitleNewUser" xml:space="preserve">
+    <value>Voeg nieuwe gebruiker toe</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Emailadres</value>
+  </data>
+  <data name="EmailLength" xml:space="preserve">
+    <value>Emailadres heeft een maximale lengte van 128 karakters.</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>Emailadres is een verplicht veld.</value>
+  </data>
+  <data name="Firstname" xml:space="preserve">
+    <value>Voornaam</value>
+  </data>
+  <data name="FirstnameLength" xml:space="preserve">
+    <value>Voornaam heeft een maximale lengte van 128 karakters.</value>
+  </data>
+  <data name="FirstnameRequired" xml:space="preserve">
+    <value>Voornaam is een verplicht veld.</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Genereer</value>
+  </data>
+  <data name="GroupDescription" xml:space="preserve">
+    <value>Omschrijving</value>
+  </data>
+  <data name="GroupDescriptionLength" xml:space="preserve">
+    <value>Omschrijving heeft een maximale lengte van 255 karakters.</value>
+  </data>
+  <data name="GroupMembers" xml:space="preserve">
+    <value>Leden</value>
+  </data>
+  <data name="GroupMembersNew" xml:space="preserve">
+    <value>U kunt pas groepsleden zien nadat de groep is opgeslagen.</value>
+  </data>
+  <data name="GroupName" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="GroupNameLength" xml:space="preserve">
+    <value>Naam heeft een maximale lengte van 64 karakters.</value>
+  </data>
+  <data name="GroupNameRequired" xml:space="preserve">
+    <value>Naam is een verplicht veld.</value>
+  </data>
+  <data name="ListTitle" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="ListTitleAccess" xml:space="preserve">
+    <value>Rechten</value>
+  </data>
+  <data name="ListTitleExternal" xml:space="preserve">
+    <value>Externe systemen</value>
+  </data>
+  <data name="ListTitleGroups" xml:space="preserve">
+    <value>Groepen</value>
+  </data>
+  <data name="ListTitleParams" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="ListTitleUsers" xml:space="preserve">
+    <value>Gebruikers</value>
+  </data>
+  <data name="Locked" xml:space="preserve">
+    <value>Blokkeer</value>
+  </data>
+  <data name="LockedInfo" xml:space="preserve">
+    <value>Indien geblokkeerd kan een gebruiker niet inloggen.</value>
+  </data>
+  <data name="LockedUntil" xml:space="preserve">
+    <value>Blokkeer tot</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+  </data>
+  <data name="LoginLength" xml:space="preserve">
+    <value>Gebruikersnaam heeft een maximale lengte van 64 karakters.</value>
+  </data>
+  <data name="LoginRequired" xml:space="preserve">
+    <value>Gebruikersnaam is een verplicht veld.</value>
+  </data>
+  <data name="MessageAccessDeleted" xml:space="preserve">
+    <value>De rechten zijn verwijderd.</value>
+  </data>
+  <data name="MessageAccessNotDeleted" xml:space="preserve">
+    <value>Een fout trad op tijdens het verwijderen van rechten.</value>
+  </data>
+  <data name="MessageAccessNotSaved" xml:space="preserve">
+    <value>Een fout trad op tijdens het opslaan van rechten.</value>
+  </data>
+  <data name="MessageAccessSaved" xml:space="preserve">
+    <value>Rechten zijn opgeslagen.</value>
+  </data>
+  <data name="MessageGroupDeleted" xml:space="preserve">
+    <value>De groep is verwijderd.</value>
+  </data>
+  <data name="MessageGroupNotDeleted" xml:space="preserve">
+    <value>Een fout trad op tijdens het verwijderen van rechten.</value>
+  </data>
+  <data name="MessageGroupNotSaved" xml:space="preserve">
+    <value>Een fout trad op tijdens het opslaan van de groep.</value>
+  </data>
+  <data name="MessageGroupSaved" xml:space="preserve">
+    <value>De groep is opgeslagen.</value>
+  </data>
+  <data name="MessageNewPassword" xml:space="preserve">
+    <value>Het nieuwe wachtwoord is </value>
+  </data>
+  <data name="MessageParamDeleted" xml:space="preserve">
+    <value>De parameter is verwijderd.</value>
+  </data>
+  <data name="MessageParamNotDeleted" xml:space="preserve">
+    <value>Een fout trad op tijdens het verwijderen van de parameter.</value>
+  </data>
+  <data name="MessageParamNotSaved" xml:space="preserve">
+    <value>Een fout trad op tijdens het opslaan van de parameter.</value>
+  </data>
+  <data name="MessageParamSaved" xml:space="preserve">
+    <value>De parameter is opgeslagen.</value>
+  </data>
+  <data name="MessageUserDeleted" xml:space="preserve">
+    <value>De gebruiker is verwijderd.</value>
+  </data>
+  <data name="MessageUserNotDeleted" xml:space="preserve">
+    <value>Een fout trad op tijdens het verwijderen van de gebruiker.</value>
+  </data>
+  <data name="MessageUserNotSaved" xml:space="preserve">
+    <value>Een fout trad op tijdens het opslaan van de gebruiker.</value>
+  </data>
+  <data name="MessageUserSaved" xml:space="preserve">
+    <value>De gebruiker is opgeslagen.</value>
+  </data>
+  <data name="ParamDescription" xml:space="preserve">
+    <value>Omschrijving</value>
+  </data>
+  <data name="ParamDescriptionLength" xml:space="preserve">
+    <value>Omschrijving heeft een maximale lengte van 255 karakters.</value>
+  </data>
+  <data name="ParamName" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="ParamNameLength" xml:space="preserve">
+    <value>De parameter naam heeft een maximale lengte van 64 karakters.</value>
+  </data>
+  <data name="ParamNameRequired" xml:space="preserve">
+    <value>De parameter naam is verplicht.</value>
+  </data>
+  <data name="ParamValue" xml:space="preserve">
+    <value>Waarde</value>
+  </data>
+  <data name="ParamValueLength" xml:space="preserve">
+    <value>De parameter waarde heeft een maximale lengte van 128 karakters.</value>
+  </data>
+  <data name="ParentGroup" xml:space="preserve">
+    <value>Bovenliggende groep</value>
+  </data>
+  <data name="PasswordConfirmError" xml:space="preserve">
+    <value>De wachtwoorden komen niet overeen.</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>Achternaam</value>
+  </data>
+  <data name="SurnameLength" xml:space="preserve">
+    <value>Achternaam heeft een maximale lengte van 128 karakters.</value>
+  </data>
+  <data name="SurnameRequired" xml:space="preserve">
+    <value>Achternaam is een verplicht veld.</value>
+  </data>
+  <data name="ToolbarAddAccess" xml:space="preserve">
+    <value>Voeg nieuwe rechten toe</value>
+  </data>
+  <data name="ToolbarAddGroup" xml:space="preserve">
+    <value>Voeg nieuwe groep toe</value>
+  </data>
+  <data name="ToolbarAddParam" xml:space="preserve">
+    <value>Voeg nieuwe parameter toe</value>
+  </data>
+  <data name="ToolbarAddUser" xml:space="preserve">
+    <value>Voeg nieuwe gebruiker toe</value>
+  </data>
+  <data name="UserInfo" xml:space="preserve">
+    <value>Gebruikersinformatie</value>
+  </data>
+  <data name="GroupParentIdRequired" xml:space="preserve">
+    <value>Bovenliggende groep is een verplicht veld.</value>
+  </data>
+  <data name="UserGroupIdRequired" xml:space="preserve">
+    <value>U moet gebruikers toevoegen aan een groep.</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>Wachtwoord is een verplicht veld.</value>
+  </data>
+</root>

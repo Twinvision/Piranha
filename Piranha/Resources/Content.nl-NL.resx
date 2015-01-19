@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlternateText" xml:space="preserve">
+    <value>Alt. tekst</value>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Upload bestand</value>
+  </data>
+  <data name="ContentSize" xml:space="preserve">
+    <value>Bestandsgrootte</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Omschrijving</value>
+  </data>
+  <data name="EditTitleExistingDocument" xml:space="preserve">
+    <value>Bewerk document</value>
+  </data>
+  <data name="EditTitleExistingFolder" xml:space="preserve">
+    <value>Bewerk map</value>
+  </data>
+  <data name="EditTitleExistingImage" xml:space="preserve">
+    <value>Bewerk afbeelding</value>
+  </data>
+  <data name="EditTitleNew" xml:space="preserve">
+    <value>Voeg nieuw bestand toe</value>
+  </data>
+  <data name="EditTitleNewFolder" xml:space="preserve">
+    <value>Voeg nieuwe map toe</value>
+  </data>
+  <data name="FileInformation" xml:space="preserve">
+    <value>Bestandsinformatie</value>
+  </data>
+  <data name="Filename" xml:space="preserve">
+    <value>Bestandsnaam</value>
+  </data>
+  <data name="FromUrl" xml:space="preserve">
+    <value>Van URL</value>
+  </data>
+  <data name="ImageSize" xml:space="preserve">
+    <value>Afbeeldinggrootte</value>
+  </data>
+  <data name="IncludingCache" xml:space="preserve">
+    <value>Incusief cache</value>
+  </data>
+  <data name="LastSynced" xml:space="preserve">
+    <value>Server datum</value>
+  </data>
+  <data name="ListDelete" xml:space="preserve">
+    <value>Verwijder bestand</value>
+  </data>
+  <data name="ListTitle" xml:space="preserve">
+    <value>Afbeeldingen &amp; documenten</value>
+  </data>
+  <data name="MessageDocumentDeleted" xml:space="preserve">
+    <value>Het bestand is verwijderd.</value>
+  </data>
+  <data name="MessageDocumentNotDeleted" xml:space="preserve">
+    <value>Een fout trad op tijdens het verwijderen van het bestand.</value>
+  </data>
+  <data name="MessageDocumentNotFound" xml:space="preserve">
+    <value>Het bestand bestaat niet op de server.</value>
+  </data>
+  <data name="MessageDocumentNotSynced" xml:space="preserve">
+    <value>Geen nieuwere versie van het bestand bestaat op de server.</value>
+  </data>
+  <data name="MessageDocumentSaved" xml:space="preserve">
+    <value>Het bestand is opgeslagen.</value>
+  </data>
+  <data name="MessageDocumentSynced" xml:space="preserve">
+    <value>Het bestand is geupdate vanaf de server.</value>
+  </data>
+  <data name="MessageDocumentSyncError" xml:space="preserve">
+    <value>Een fout trad op tijdens het updaten vanaf de server.</value>
+  </data>
+  <data name="MessageFolderDeleted" xml:space="preserve">
+    <value>De map is verwijderd.</value>
+  </data>
+  <data name="MessageFolderNotDeleted" xml:space="preserve">
+    <value>Een fout trad op tijdens het verwijderen van de map.</value>
+  </data>
+  <data name="MessageFolderSaved" xml:space="preserve">
+    <value>De map is opgeslagen.</value>
+  </data>
+  <data name="MessageImageDeleted" xml:space="preserve">
+    <value>De afbeelding is verwijderd.</value>
+  </data>
+  <data name="MessageImageNotDeleted" xml:space="preserve">
+    <value>Een fout trad op tijdens het verwijderen van de afbeelding.</value>
+  </data>
+  <data name="MessageImageNotFound" xml:space="preserve">
+    <value>De afbeelding bestaat niet op de server.</value>
+  </data>
+  <data name="MessageImageNotSynced" xml:space="preserve">
+    <value>Geen nieuwere versie van de afbeelding bestaat op de server.</value>
+  </data>
+  <data name="MessageImageSaved" xml:space="preserve">
+    <value>De afbeelding is opgeslagen.</value>
+  </data>
+  <data name="MessageImageSynced" xml:space="preserve">
+    <value>De afbeelding is geupdate vanaf de server.</value>
+  </data>
+  <data name="MessageImageSyncError" xml:space="preserve">
+    <value>Een fout trad op tijdens het updaten vanaf de server.</value>
+  </data>
+  <data name="MessageNotSaved" xml:space="preserve">
+    <value>Een fout trad op tijdens het opslaan van het bestand.</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="OriginalUrl" xml:space="preserve">
+    <value>Originele URL</value>
+  </data>
+  <data name="ParentId" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="ThumbnailNewDescription" xml:space="preserve">
+    <value>The thumbnail will be shown after you have uploaded the new content.</value>
+  </data>
+  <data name="ToolbarAdd" xml:space="preserve">
+    <value>Upload nieuw bestand</value>
+  </data>
+  <data name="ToolbarAddFolder" xml:space="preserve">
+    <value>Upload map</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Vanaf computer</value>
+  </data>
+  <data name="MessageDocumentPublished" xml:space="preserve">
+    <value>Het bestand is gepubliceerd.</value>
+  </data>
+  <data name="MessageDocumentUnpublished" xml:space="preserve">
+    <value>Het document is gedepubliceerd.</value>
+  </data>
+  <data name="MessageFolderPublished" xml:space="preserve">
+    <value>De map is gepubliceerd.</value>
+  </data>
+  <data name="MessageFolderUnpublished" xml:space="preserve">
+    <value>De map is gedepubliceerd.</value>
+  </data>
+  <data name="MessageImagePublished" xml:space="preserve">
+    <value>De afbeelding is gepubliceerd.</value>
+  </data>
+  <data name="MessageImageUnpublished" xml:space="preserve">
+    <value>De afbeelding is gedepubliceerd.</value>
+  </data>
+  <data name="MessageNotFound" xml:space="preserve">
+    <value>Er trad een fout op. Het gespecificeerde media object kon niet worden gevonden.</value>
+  </data>
+  <data name="MessageReverted" xml:space="preserve">
+    <value>De laatst gepubliceerde versie is nu hersteld.</value>
+  </data>
+  <data name="ChooseExisting" xml:space="preserve">
+    <value>Kies bestaande</value>
+  </data>
+  <data name="UploadNew" xml:space="preserve">
+    <value>Upload nieuw</value>
+  </data>
+  <data name="MessageDeleteConfirmFile" xml:space="preserve">
+    <value>Weet u zeker dat u het geselecteerde bestand wilt verwijderen?</value>
+  </data>
+  <data name="MessageDeleteConfirmFolder" xml:space="preserve">
+    <value>Weet u zeker dat u de geselecteerde map wilt verwijderen?</value>
+  </data>
+  <data name="MessageDeleteConfirmImage" xml:space="preserve">
+    <value>Weet u zeker dat u de geselecteerde afbeelding wilt verwijderen?</value>
+  </data>
+  <data name="MessageUpdated" xml:space="preserve">
+    <value>De gepubliceerde versie is geupdate.</value>
+  </data>
+</root>
